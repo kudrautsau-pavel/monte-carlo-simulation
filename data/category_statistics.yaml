@@ -1,0 +1,25 @@
+backend:
+  completion_rate: 1.0
+  mean_variance: 1.2522083333333331
+  std_variance: 0.3336869576479182
+  typical_multiplier: 1.25
+database:
+  completion_rate: 1.0
+  mean_variance: 1.2005000000000001
+  std_variance: 0.3770626187881729
+  typical_multiplier: 1.19
+deployment:
+  completion_rate: 1.0
+  mean_variance: 1.251125
+  std_variance: 0.3858411614884215
+  typical_multiplier: 1.24
+frontend:
+  completion_rate: 1.0
+  mean_variance: 1.2784
+  std_variance: 0.34906292137224065
+  typical_multiplier: 1.25
+testing:
+  completion_rate: 1.0
+  mean_variance: 1.252875
+  std_variance: 0.3710708411912608
+  typical_multiplier: 1.2349999999999999

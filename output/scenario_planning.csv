@@ -1,0 +1,5 @@
+Scenario,Target_Days,Success_Probability,Buffer_Days,Recommended_For
+Aggressive,106.7,50%,0.0,Internal stretch goals
+Moderate,109.4,75%,2.7,Team planning
+Conservative,111.7,90%,5.0,Client commitments
+Very_Conservative,113.1,95%,6.4,High-risk projects

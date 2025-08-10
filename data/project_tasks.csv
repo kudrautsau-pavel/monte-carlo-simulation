@@ -1,0 +1,51 @@
+Task_ID,Task_Name,Category,Predecessors,Optimistic,Most_Likely,Pessimistic,Resources
+T001,Project Setup,Setup,,0.5,1,2,DevOps
+T002,Requirements Analysis,Planning,,3,5,8,BA;Dev
+T003,Database Design,Backend,T002,2,3,5,Backend
+T004,API Architecture,Backend,T002,1,2,4,Backend
+T005,Frontend Framework Setup,Frontend,T001,1,1.5,3,Frontend
+T006,User Auth Module,Backend,T003;T004,3,5,8,Backend
+T007,Dashboard UI,Frontend,T005,4,6,10,Frontend
+T008,API Endpoints Development,Backend,T004,8,12,18,Backend
+T009,Frontend Components,Frontend,T005;T007,10,15,22,Frontend
+T010,Integration Testing,QA,T008;T009,3,5,7,QA
+T011,User Management API,Backend,T006,4,6,9,Backend
+T012,Authentication Frontend,Frontend,T006;T009,5,8,12,Frontend
+T013,Data Models,Backend,T003,2,4,6,Backend
+T014,API Documentation,Backend,T008,1,2,3,Backend
+T015,Unit Testing Backend,QA,T008;T011,6,9,14,QA
+T016,Unit Testing Frontend,QA,T009;T012,5,8,12,QA
+T017,Database Migration Scripts,Backend,T013,2,3,5,Backend
+T018,Error Handling,Backend,T008,3,5,8,Backend
+T019,Form Validation,Frontend,T009,2,4,6,Frontend
+T020,Responsive Design,Frontend,T007,4,7,11,Frontend
+T021,Performance Optimization,Backend,T008;T018,5,8,13,Backend
+T022,Security Implementation,Backend,T006;T018,6,10,15,Backend
+T023,User Interface Polish,Frontend,T020;T019,3,6,10,Frontend
+T024,Cross-browser Testing,QA,T023,4,6,9,QA
+T025,Load Testing,QA,T021,3,5,8,QA
+T026,Security Testing,QA,T022,4,7,11,QA
+T027,Bug Fixes Round 1,QA,T015;T016;T024,8,12,18,QA
+T028,Performance Tuning,Backend,T025,3,5,8,Backend
+T029,UI/UX Improvements,Frontend,T027,5,8,12,Frontend
+T030,API Rate Limiting,Backend,T021,2,3,5,Backend
+T031,Logging Implementation,Backend,T018,2,4,6,Backend
+T032,Monitoring Setup,DevOps,T031,3,5,8,DevOps
+T033,Backup Strategy,DevOps,T017,2,4,7,DevOps
+T034,SSL Configuration,DevOps,T001,1,2,4,DevOps
+T035,Environment Setup,DevOps,T034,2,3,5,DevOps
+T036,CI/CD Pipeline,DevOps,T035,4,6,10,DevOps
+T037,Staging Deployment,DevOps,T036,2,3,5,DevOps
+T038,User Acceptance Testing,QA,T029;T028,5,8,12,QA
+T039,Documentation Update,Documentation,T014,2,4,6,Documentation
+T040,Training Materials,Documentation,T039,3,5,8,Documentation
+T041,Final Bug Fixes,QA,T038,4,6,9,QA
+T042,Performance Validation,QA,T028,2,3,5,QA
+T043,Security Audit,QA,T026,3,5,8,QA
+T044,Pre-production Testing,QA,T037;T041,4,6,9,QA
+T045,Production Deployment,Deployment,T044;T042;T043,2,3,6,DevOps
+T046,Post-deployment Monitoring,DevOps,T045,1,2,3,DevOps
+T047,User Training,Training,T040;T045,2,4,6,Training
+T048,Go-live Support,Support,T047,4,6,8,Support
+T049,Project Closure,Management,T048,1,2,3,Management
+T050,Final Documentation,Documentation,T049,2,3,5,Documentation

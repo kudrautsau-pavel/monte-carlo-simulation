@@ -1,0 +1,51 @@
+Task_ID,Task_Name,Category,Impact_Score,Correlation,Variance,Risk_Level
+T009,Frontend Components,Frontend,2.033,0.508,4.00,High
+T027,Bug Fixes Round 1,QA,1.196,0.431,2.78,High
+T038,User Acceptance Testing,QA,0.418,0.302,1.38,Medium
+T029,UI/UX Improvements,Frontend,0.395,0.293,1.35,Medium
+T007,Dashboard UI,Frontend,0.238,0.240,0.99,Low
+T016,Unit Testing Frontend,QA,0.198,0.146,1.36,Low
+T012,Authentication Frontend,Frontend,0.198,0.144,1.37,Low
+T023,User Interface Polish,Frontend,0.193,0.143,1.35,Low
+T044,Pre-production Testing,QA,0.138,0.202,0.68,Low
+T041,Final Bug Fixes,QA,0.134,0.192,0.70,Low
+T045,Production Deployment,Deployment,0.079,0.181,0.44,Low
+T024,Cross-browser Testing,QA,0.074,0.107,0.69,Low
+T047,User Training,Training,0.072,0.164,0.44,Low
+T048,Go-live Support,Support,0.068,0.150,0.45,Low
+T019,Form Validation,Frontend,0.033,0.073,0.45,Low
+T022,Security Implementation,Backend,0.033,-0.015,2.25,Low
+T050,Final Documentation,Documentation,0.030,0.120,0.25,Low
+T021,Performance Optimization,Backend,0.028,-0.015,1.81,Low
+T015,Unit Testing Backend,QA,0.022,-0.012,1.80,Low
+T008,API Endpoints Development,Backend,0.022,0.008,2.72,Low
+T020,Responsive Design,Frontend,0.017,0.012,1.36,Low
+T002,Requirements Analysis,Planning,0.016,-0.023,0.70,Low
+T049,Project Closure,Management,0.009,0.082,0.11,Low
+T005,Frontend Framework Setup,Frontend,0.009,0.079,0.11,Low
+T025,Load Testing,QA,0.008,-0.011,0.69,Low
+T036,CI/CD Pipeline,DevOps,0.007,-0.007,1.00,Low
+T033,Backup Strategy,DevOps,0.006,0.009,0.70,Low
+T026,Security Testing,QA,0.006,-0.004,1.36,Low
+T028,Performance Tuning,Backend,0.005,-0.008,0.70,Low
+T006,User Auth Module,Backend,0.005,-0.008,0.69,Low
+T037,Staging Deployment,DevOps,0.005,0.021,0.25,Low
+T031,Logging Implementation,Backend,0.005,-0.011,0.44,Low
+T004,API Architecture,Backend,0.005,-0.020,0.24,Low
+T034,SSL Configuration,DevOps,0.005,0.018,0.25,Low
+T001,Project Setup,Setup,0.004,0.073,0.06,Low
+T035,Environment Setup,DevOps,0.004,-0.016,0.25,Low
+T043,Security Audit,QA,0.004,-0.006,0.69,Low
+T011,User Management API,Backend,0.003,0.004,0.69,Low
+T017,Database Migration Scripts,Backend,0.003,0.011,0.25,Low
+T013,Data Models,Backend,0.002,-0.006,0.44,Low
+T040,Training Materials,Documentation,0.002,0.003,0.69,Low
+T042,Performance Validation,QA,0.002,-0.009,0.25,Low
+T018,Error Handling,Backend,0.002,0.003,0.68,Low
+T030,API Rate Limiting,Backend,0.002,0.006,0.25,Low
+T003,Database Design,Backend,0.001,-0.005,0.25,Low
+T039,Documentation Update,Documentation,0.001,0.002,0.44,Low
+T046,Post-deployment Monitoring,DevOps,0.001,-0.007,0.11,Low
+T032,Monitoring Setup,DevOps,0.000,0.000,0.69,Low
+T014,API Documentation,Backend,0.000,0.001,0.11,Low
+T010,Integration Testing,QA,0.000,0.000,0.44,Low

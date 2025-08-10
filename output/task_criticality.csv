@@ -1,0 +1,51 @@
+Task_ID,Task_Name,Category,Criticality_Percentage,Priority_Level,Resource_Allocation
+T050,Final Documentation,Documentation,100.0%,Critical,Best resources
+T001,Project Setup,Setup,0.0%,Low,Standard
+T002,Requirements Analysis,Planning,0.0%,Low,Standard
+T003,Database Design,Backend,0.0%,Low,Standard
+T004,API Architecture,Backend,0.0%,Low,Standard
+T005,Frontend Framework Setup,Frontend,0.0%,Low,Standard
+T006,User Auth Module,Backend,0.0%,Low,Standard
+T007,Dashboard UI,Frontend,0.0%,Low,Standard
+T008,API Endpoints Development,Backend,0.0%,Low,Standard
+T009,Frontend Components,Frontend,0.0%,Low,Standard
+T010,Integration Testing,QA,0.0%,Low,Standard
+T011,User Management API,Backend,0.0%,Low,Standard
+T012,Authentication Frontend,Frontend,0.0%,Low,Standard
+T013,Data Models,Backend,0.0%,Low,Standard
+T014,API Documentation,Backend,0.0%,Low,Standard
+T015,Unit Testing Backend,QA,0.0%,Low,Standard
+T016,Unit Testing Frontend,QA,0.0%,Low,Standard
+T017,Database Migration Scripts,Backend,0.0%,Low,Standard
+T018,Error Handling,Backend,0.0%,Low,Standard
+T019,Form Validation,Frontend,0.0%,Low,Standard
+T020,Responsive Design,Frontend,0.0%,Low,Standard
+T021,Performance Optimization,Backend,0.0%,Low,Standard
+T022,Security Implementation,Backend,0.0%,Low,Standard
+T023,User Interface Polish,Frontend,0.0%,Low,Standard
+T024,Cross-browser Testing,QA,0.0%,Low,Standard
+T025,Load Testing,QA,0.0%,Low,Standard
+T026,Security Testing,QA,0.0%,Low,Standard
+T027,Bug Fixes Round 1,QA,0.0%,Low,Standard
+T028,Performance Tuning,Backend,0.0%,Low,Standard
+T029,UI/UX Improvements,Frontend,0.0%,Low,Standard
+T030,API Rate Limiting,Backend,0.0%,Low,Standard
+T031,Logging Implementation,Backend,0.0%,Low,Standard
+T032,Monitoring Setup,DevOps,0.0%,Low,Standard
+T033,Backup Strategy,DevOps,0.0%,Low,Standard
+T034,SSL Configuration,DevOps,0.0%,Low,Standard
+T035,Environment Setup,DevOps,0.0%,Low,Standard
+T036,CI/CD Pipeline,DevOps,0.0%,Low,Standard
+T037,Staging Deployment,DevOps,0.0%,Low,Standard
+T038,User Acceptance Testing,QA,0.0%,Low,Standard
+T039,Documentation Update,Documentation,0.0%,Low,Standard
+T040,Training Materials,Documentation,0.0%,Low,Standard
+T041,Final Bug Fixes,QA,0.0%,Low,Standard
+T042,Performance Validation,QA,0.0%,Low,Standard
+T043,Security Audit,QA,0.0%,Low,Standard
+T044,Pre-production Testing,QA,0.0%,Low,Standard
+T045,Production Deployment,Deployment,0.0%,Low,Standard
+T046,Post-deployment Monitoring,DevOps,0.0%,Low,Standard
+T047,User Training,Training,0.0%,Low,Standard
+T048,Go-live Support,Support,0.0%,Low,Standard
+T049,Project Closure,Management,0.0%,Low,Standard

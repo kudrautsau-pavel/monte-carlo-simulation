@@ -1,0 +1,274 @@
+{
+  "simulation_metadata": {
+    "date": "2025-08-10T18:00:49.058652",
+    "iterations": 10000,
+    "total_tasks": 50,
+    "framework_version": "2.0 - Advanced Critical Path Analysis"
+  },
+  "project_summary": {
+    "total_tasks": 50,
+    "simulation_runs": 10000,
+    "mean_duration": 106.71143689427869,
+    "std_duration": 3.8974410309562884,
+    "min_duration": 92.65559688754641,
+    "max_duration": 121.82685223302062
+  },
+  "percentiles": {
+    "P10": 101.75447859995805,
+    "P25": 104.05671508983065,
+    "P50": 106.73592609500047,
+    "P75": 109.36719404329835,
+    "P80": 109.98046398610926,
+    "P90": 111.69227526866479,
+    "P95": 113.123613637276,
+    "Mean": 106.71143689427869,
+    "StdDev": 3.8974410309562884
+  },
+  "confidence_intervals": {
+    "50%": {
+      "lower_bound": 104.05671508983065,
+      "upper_bound": 109.36719404329835,
+      "range": 5.310478953467708
+    },
+    "75%": {
+      "lower_bound": 102.24078343674681,
+      "upper_bound": 111.1830358234096,
+      "range": 8.942252386662787
+    },
+    "90%": {
+      "lower_bound": 100.2711926775147,
+      "upper_bound": 113.123613637276,
+      "range": 12.85242095976129
+    },
+    "95%": {
+      "lower_bound": 99.09372388662901,
+      "upper_bound": 114.4307230290226,
+      "range": 15.336999142393594
+    }
+  },
+  "critical_tasks": [
+    {
+      "task_id": "T050",
+      "task_name": "Final Documentation",
+      "category": "Documentation",
+      "criticality_percentage": 100.0,
+      "mean_duration": 3.1666666666666665,
+      "std_duration": 0.5
+    }
+  ],
+  "sensitivity_analysis": [
+    {
+      "task_id": "T009",
+      "task_name": "Frontend Components",
+      "category": "Frontend",
+      "correlation": 0.5084265635989321,
+      "variance": 3.9985504403427257,
+      "impact_score": 2.0329692597604487,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T027",
+      "task_name": "Bug Fixes Round 1",
+      "category": "QA",
+      "correlation": 0.43050081254251593,
+      "variance": 2.7784850533245224,
+      "impact_score": 1.1961400730934426,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T038",
+      "task_name": "User Acceptance Testing",
+      "category": "QA",
+      "correlation": 0.3024490200463527,
+      "variance": 1.3836947996672362,
+      "impact_score": 0.41849713620258994,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T029",
+      "task_name": "UI/UX Improvements",
+      "category": "Frontend",
+      "correlation": 0.29264840988161833,
+      "variance": 1.3510448880347086,
+      "impact_score": 0.39538113816204656,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T007",
+      "task_name": "Dashboard UI",
+      "category": "Frontend",
+      "correlation": 0.23992162311640902,
+      "variance": 0.9921938244454899,
+      "impact_score": 0.23804875280703933,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T016",
+      "task_name": "Unit Testing Frontend",
+      "category": "QA",
+      "correlation": 0.14600024001906514,
+      "variance": 1.357915375187764,
+      "impact_score": 0.19825597070299242,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T012",
+      "task_name": "Authentication Frontend",
+      "category": "Frontend",
+      "correlation": 0.1440320122214427,
+      "variance": 1.3741212725922654,
+      "impact_score": 0.19791745192775356,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T023",
+      "task_name": "User Interface Polish",
+      "category": "Frontend",
+      "correlation": 0.14328545724764613,
+      "variance": 1.3459601227188778,
+      "impact_score": 0.1928565116208723,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T044",
+      "task_name": "Pre-production Testing",
+      "category": "QA",
+      "correlation": 0.20164089422250164,
+      "variance": 0.6842472419304195,
+      "impact_score": 0.13797222573213022,
+      "criticality_percentage": 0
+    },
+    {
+      "task_id": "T041",
+      "task_name": "Final Bug Fixes",
+      "category": "QA",
+      "correlation": 0.19199599631012307,
+      "variance": 0.6970044202856388,
+      "impact_score": 0.13382205810530098,
+      "criticality_percentage": 0
+    }
+  ],
+  "risk_analysis": {
+    "probability_over_mean": 0.5021,
+    "probability_over_150_percent": 0.0,
+    "probability_over_200_percent": 0.0,
+    "value_at_risk_95": 113.123613637276,
+    "expected_shortfall_95": 114.77947567321401
+  },
+  "category_analysis": {
+    "Setup": {
+      "total_duration_mean": 1.2520283709271987,
+      "total_duration_std": 0.24747092920490432,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 1,
+      "risk_contribution": 0.06124186080153877
+    },
+    "Planning": {
+      "total_duration_mean": 5.503651661539107,
+      "total_duration_std": 0.8346976844806137,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 1,
+      "risk_contribution": 0.696720224477298
+    },
+    "Backend": {
+      "total_duration_mean": 5.604438330404505,
+      "total_duration_std": 3.203893459091178,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 14,
+      "risk_contribution": 10.264933297207234
+    },
+    "Frontend": {
+      "total_duration_mean": 7.505843074446612,
+      "total_duration_std": 4.02109713388147,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 8,
+      "risk_contribution": 16.16922216010977
+    },
+    "QA": {
+      "total_duration_mean": 7.2087641849999216,
+      "total_duration_std": 2.6329389310739795,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 12,
+      "risk_contribution": 6.9323674147649905
+    },
+    "DevOps": {
+      "total_duration_mean": 4.07390023773798,
+      "total_duration_std": 1.7502602787744743,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 7,
+      "risk_contribution": 3.0634110434557003
+    },
+    "Documentation": {
+      "total_duration_mean": 4.327995942861069,
+      "total_duration_std": 1.0827242783398323,
+      "avg_criticality": 33.333333333333336,
+      "max_criticality": 100.0,
+      "task_count": 3,
+      "risk_contribution": 1.1722918629065104
+    },
+    "Deployment": {
+      "total_duration_mean": 4.005204470930395,
+      "total_duration_std": 0.6606679666461271,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 1,
+      "risk_contribution": 0.4364821621523282
+    },
+    "Training": {
+      "total_duration_mean": 3.9980445064160763,
+      "total_duration_std": 0.6613085826678623,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 1,
+      "risk_contribution": 0.4373290415101768
+    },
+    "Support": {
+      "total_duration_mean": 6.001434945085894,
+      "total_duration_std": 0.6720813150269525,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 1,
+      "risk_contribution": 0.45169329400835767
+    },
+    "Management": {
+      "total_duration_mean": 2.0027264621224425,
+      "total_duration_std": 0.3340941319385623,
+      "avg_criticality": 0.0,
+      "max_criticality": "0",
+      "task_count": 1,
+      "risk_contribution": 0.11161888899578148
+    }
+  },
+  "buffer_recommendations": {
+    "aggressive": {
+      "target": 106.73592609500047,
+      "buffer": 0,
+      "success_probability": 50,
+      "description": "No buffer - 50% chance of success"
+    },
+    "moderate": {
+      "target": 109.36719404329835,
+      "buffer": 2.6557571490196636,
+      "success_probability": 75,
+      "description": "Moderate buffer - 75% chance of success"
+    },
+    "conservative": {
+      "target": 111.69227526866479,
+      "buffer": 4.980838374386096,
+      "success_probability": 90,
+      "description": "Conservative buffer - 90% chance of success"
+    },
+    "very_conservative": {
+      "target": 113.123613637276,
+      "buffer": 6.412176742997303,
+      "success_probability": 95,
+      "description": "Very conservative - 95% chance of success"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Percentile,Days,Buffer_Days,Buffer_Percentage,Use_Case
+P10,101.8,0.0,0.0%,Optimistic scenario
+P25,104.1,0.0,0.0%,Aggressive planning
+P50,106.7,0.0,0.0%,Baseline estimate
+P75,109.4,2.6,2.5%,Internal planning
+P80,110.0,3.2,3.0%,Moderate buffer
+P90,111.7,5.0,4.6%,External commitments
+P95,113.1,6.4,6.0%,Conservative buffer
